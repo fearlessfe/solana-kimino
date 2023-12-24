@@ -5,14 +5,17 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "@hubbleprotocol/kamino-sdk": "^3.0.20",
-      "@solana/web3.js": "^1.78.7",
-      "decimal.js": "^10.4.3"
+        "@hubbleprotocol/kamino-sdk": "^3.0.20",
+        "@solana/web3.js": "^1.78.7",
+        "@solendprotocol/solend-sdk": "^0.6.52",
+        "@solflare-wallet/utl-sdk": "^1.4.0",
+        "bn.js": "^5.2.1",
+        "decimal.js": "^10.4.3",
+        "got": "^14.0.0"
     }
-  }
-  
+}
